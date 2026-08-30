@@ -1,0 +1,618 @@
+/* Developed By Mishu and Labib IT.
+ * Version: 3.0.1
+ *2026 */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&amp;display=swap');
+
+
+@import url('owl.css');
+@import url('font-awesome.css');
+@import url('flaticon.css');
+@import url('custom-animate.css');
+
+
+
+
+
+
+
+
+
+
+/*=================     main header style  ==================*/
+
+.main-header {
+	position: absolute;
+	padding: 0 90px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.main-header .logo {
+	margin: 28px 0;
+}
+
+.main-header .logo img {
+    width: auto;
+}
+
+.main-header ul li {
+	margin: 42px 24px;
+	display: inline-block;
+}
+
+.main-header ul li a {
+	color: #fff;
+	font-size: 16px;
+	font-weight:  600;
+}
+
+.main-header .menu,
+.main-header .link-btn {
+	display: inline-block;
+}
+
+.main-header .link-btn .btn-style-one {
+	margin-left: 75px;
+	color: #fff !important;
+	background: rgba(255, 255, 255, 0.3);
+	border: none !important;
+}
+
+.main-header .link-btn .btn-style-one:hover {
+	background: #4527a4;
+}
+
+/*========== responsive =========*/
+
+@media only screen and (max-width: 1300px) {
+	.main-header {
+	    padding: 0 20px;
+	}
+	.main-header ul li {
+	    margin: 42px 10px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main-header .pull-left,
+	.main-header .pull-right {
+	    float: inherit!important;
+	}
+	.main-header ul li {
+	    margin: 30px 10px;
+	}
+	.main-header .logo {
+	    margin: 20px 0 0;
+	    text-align: center;
+	}
+	.main-header .link-btn .btn-style-one {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.main-header ul {
+		text-align: center;
+	}
+	.main-header ul li {
+	    margin: 30px 10px 0;
+	}
+	.main-header .link-btn {
+	    text-align: center;
+	    display: block;
+	    margin: 30px 0px;
+	}
+	.main-header .link-btn .btn-style-one {
+		margin-left: 0px;
+	}
+
+}
+
+
+
+
+/*=================     banner style  ==================*/
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    padding: 220px 0;
+    overflow: hidden;
+    background-color: #003a4f;
+}
+
+.banner .box {
+	position: absolute;
+}
+
+.banner h2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 100px;
+	text-transform: capitalize;
+}
+
+.banner h3 {
+	color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner .theme-btn {
+	line-height: 29px;
+}
+
+.banner .theme-btn:hover {
+	background: #222;
+	color: #fff;
+}
+
+.banner .parallax-container {
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .slide1 {
+	display: block;
+	position: absolute;
+	left: 55px;
+}
+
+.banner .slide2 {
+	display: block;
+	position: absolute;
+	right: 300px;
+	top: 100px;
+}
+
+.banner .slide3 {
+	display: block;
+	position: absolute;
+	right: 55px;
+	bottom: 100px;
+}
+
+.banner .slide4 {
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+
+.banner .slide5 {
+	display: block;
+	position: absolute;
+}
+
+/* banner style two */
+
+.banner-two {
+    position: relative;
+    text-align: center;
+    padding: 320px 0 250px;
+    overflow: hidden;
+}
+
+.banner-two:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(69, 39, 164, 0.9);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 9;
+}
+
+.banner-two .banner-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 170%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-two .box {
+	position: absolute;
+}
+
+.banner-two h1 {
+	position: relative;
+	z-index: 10;
+	color: #fff;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100px;
+	margin-bottom: 30px;
+	height: 100px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+.banner-two h2 {
+	position: relative;
+	z-index: 10;
+	color: #fff;
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 70px;
+	text-transform: capitalize;
+}
+
+.banner-two h3 {
+	position: relative;
+	z-index: 10;
+	color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-two .theme-btn {
+	position: relative;
+	z-index: 10;
+	line-height: 29px;
+}
+
+.banner-two .theme-btn:hover {
+	background: #222;
+	color: #fff;
+}
+
+.sec-title .text{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	margin: 0px;
+	color: #848484;
+}
+
+@-webkit-keyframes banner-animate {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+}
+
+@keyframes banner-animate {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+}
+
+.banner-animate {
+    animation-name: banner-animate; 
+    animation-duration: 70s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: banner-animate; 
+    -webkit-animation-duration: 70s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: banner-animate; 
+    -moz-animation-duration: 70s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: banner-animate; 
+    -ms-animation-duration: 70s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: banner-animate; 
+    -o-animation-duration: 70s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+/* main demo */
+
+.main-demo {
+	position: relative;
+	padding: 100px 0 50px;
+}
+
+.main-demo .image {
+    position: relative;
+    box-shadow: 0px 7px 30px 0px rgba(69, 39, 164, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.tran-4{
+	transition: 5s ease;
+}
+
+.main-demo .image:hover{
+	background-position: bottom center;
+}
+
+.main-demo .image a{
+    position: relative;
+    height: 450px;
+    display: block;
+}
+
+.main-demo h3 {
+	position: relative;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 65px;
+}
+
+.main-demo h3 a:hover {
+	color: #4527a4;
+}
+
+.main-demo h3 a {
+	display: inline-block;
+	color: inherit;
+	transition: all 500ms ease;
+}
+
+/* feature */
+
+.feature {
+	position: relative;
+	background-color: #4527a4;
+	background-position:  center;
+	padding: 120px 0 50px;
+}
+
+.feature-block {
+	margin-bottom: 60px;
+	padding-left: 20px;
+}
+
+.page-title {
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 240px 0px 180px 0px;
+    min-height: 509px;
+}
+
+.feature-block h4 {
+	position: relative;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.feature-block h4:before {
+    position: absolute;
+    left: -40px;
+    top: 8px;
+    height: 4px;
+    width: 16px;
+    background-color: #fff;
+    content: "";
+}
+
+.feature-block .text {
+	color: #ccc;
+}
+
+.feature .image img {
+	max-width: none;
+	float: left;
+	margin-bottom: -178px;
+	position:  relative;
+	z-index: 9;
+}
+
+
+/* feature icon */
+
+.feature-icon {
+	position: relative;
+	background-color: #ffffff;
+	padding: 120px 0px 90px 0px;
+	background-position:  center;
+}
+
+.feature-icon .shape {
+	position: absolute;
+	top: -100px;
+	left: 150px;
+}
+
+.feature-block-two .image {
+	min-height: 95px;
+}
+
+.feature-block-two span {
+	position: relative;
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	background: #f6f6f6;
+	border-radius: 50%;
+	color: #4527a4;
+	font-size: 40px;
+}
+
+.feature-block-two h4 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.feature-icon .feature-block-two {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    text-align: center;
+    min-height: 350px;
+    background: #fff;
+    box-shadow: 0px 7px 30px 0px rgba(69, 39, 164, 0.2);
+}
+
+
+
+@keyframes float-bob-y {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+.other-page{
+	position: relative;
+	padding-bottom: 90px;
+}
+
+.other-page .image-box{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	background: #4527a4;
+	margin-bottom: 30px;
+	box-shadow: 0px 7px 30px 0px rgba(69, 39, 164, 0.4);
+}
+
+.other-page .image-box img{
+	width: 100%;
+	transition: all 500ms ease;
+}
+
+.other-page .image-box:hover img{
+	opacity: 0.5;
+}
+
+
+
+
+/*=================     footer style  ==================*/
+
+
+.footer {
+	position: relative;
+	text-align: center;
+	padding: 206px 0;
+	overflow: hidden;
+	background-position:  center;
+	background-repeat:  no-repeat;
+	background-size:  cover;
+	background-attachment: fixed;
+}
+
+.footer:before{
+	position: absolute;
+	content: '';
+	background: rgba(69, 39, 164, 0.9);
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.footer .overlay {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+
+.footer h2 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 55px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.footer .link-btn .btn-style-one {
+	background: transparent;
+	border-color: #ffffff;
+	color: #fff;
+}
+
+.footer .link-btn .btn-style-one:hover {
+	border-color: #fff;
+	color: #4527a4;
+	background: #fff;
+}
+
+.footer .text {
+	position: relative;
+	color: #fff;
+	margin-bottom: 35px;
+	font-size:  32px;
+}
+
+@media only screen and (max-width: 1200px){
+	
+	.main-header{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 499px){
+
+	.banner-two h1{
+		letter-spacing: 0px;
+		font-size: 70px;
+		line-height: 70px;
+		height: 70px;
+	}
+}
